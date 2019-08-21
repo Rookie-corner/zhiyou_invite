@@ -41,8 +41,8 @@ class Register extends Component{
         }
         return(
             <div>
-                <NavBar>硅&nbsp;谷&nbsp;直&nbsp;聘</NavBar>
-                <Logo/>
+                <NavBar>职&nbsp;友&nbsp;聘</NavBar>
+                <Logo  />
                 {this.props.msg? <p className='error-msg'>{this.props.msg}</p> : null}
                 <WingBlank>
                     <WhiteSpace/>
